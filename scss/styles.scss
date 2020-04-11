@@ -187,6 +187,11 @@ input[type=number] {
 
 .container {
     max-width: 1280px !important;
+    padding: 0 1rem;
+
+    @media(min-width: 768px) {
+        padding: 0 1.5rem;
+    }
 }
 
 // ===== Homepage ===== //
@@ -218,6 +223,14 @@ input[type=number] {
                 padding: .5rem;
                 display: flex;
                 justify-content: center;
+            }
+
+            @media(min-width: 768px) {
+                padding: .5rem 1rem;
+            }
+
+            @media(min-width: 1200px) {
+                padding: .5rem 2.15rem;
             }
 
             span::after {
@@ -278,9 +291,23 @@ input[type=number] {
         height: fit-content;
         padding: 6.5rem 0 7rem;
 
+        @media(max-width: 1024px) {
+            background: url('../assets/img/homepage/cover-banner-3.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 10% 100px;
+            padding: 6.5rem 0 15rem;
+        }
+
+        @media(max-width: 768px) {
+            background: url('../assets/img/homepage/cover-banner-3.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 6.5rem 0 12rem;
+        }
+
         @media(max-width:576px) {
             padding: 4.5rem 0 6.5rem;
-            background: #2AB6F6;
             background: url('../assets/img/homepage/cover-banner-3.png') no-repeat left center;
             background-size: cover;
             background-attachment: fixed;
@@ -293,7 +320,7 @@ input[type=number] {
             left: 0;
             width: 100%;
 
-            @media(max-width: 576px) {
+            @media(max-width: 1024px) {
                 display: none;
             }
         }
@@ -301,6 +328,14 @@ input[type=number] {
         .text-banner {
             padding: 4rem 0;
             color: #FFF;
+
+            @media(max-width: 1024px) {
+                padding: 3rem 0;
+            }
+
+            @media(max-width: 768px) {
+                padding: 4rem 0;
+            }
 
             @media(max-width:576px) {
                 padding: 1.5rem 0;
@@ -316,6 +351,18 @@ input[type=number] {
                 font-size: 60px;
                 margin-bottom: 2.5rem;
                 text-shadow: 8px 0px 2px #333;
+
+                @media(max-width: 1024px) {
+                    width: 95%;
+                }
+
+                @media(max-width:768px) {
+                    width: 100%;
+                    font-size: 3rem;
+                    margin-bottom: 2.5rem;
+                    text-shadow: 6px 0px 2px #333;
+                    line-height: 4rem;
+                }
 
                 @media(max-width:576px) {
                     font-size: 2.15rem;
@@ -341,6 +388,10 @@ input[type=number] {
                 margin-bottom: 1.25rem;
                 text-shadow: 4px 4px 2px #333;
 
+                @media(max-width: 768px) {
+                    font-size: 2rem;
+                }
+
                 @media(max-width: 576px) {
                     font-size: 1.75rem;
                     margin-bottom: 1rem;
@@ -350,7 +401,6 @@ input[type=number] {
                 @media(max-width: 320px) {
                     font-size: 1.5rem;
                     margin-bottom: .75rem;
-                    // text-shadow: 2px 3px 2px #333;
                 }
 
             }
@@ -359,6 +409,10 @@ input[type=number] {
                 font-size: 2.25rem;
                 margin-left: 5rem;
                 text-shadow: 4px 4px 2px #333;
+
+                @media(max-width: 768px) {
+                    font-size: 2rem;
+                }
 
                 @media(max-width:576px) {
                     margin-left: 0;
@@ -373,6 +427,10 @@ input[type=number] {
                 margin-left: 10rem;
                 text-shadow: 4px 4px 2px #333;
 
+                @media(max-width: 768px) {
+                    font-size: 2rem;
+                }
+
                 @media(max-width:576px) {
                     margin-left: 0;
                     font-size: 1.5rem;
@@ -386,6 +444,20 @@ input[type=number] {
             position: absolute;
             top: 45%;
             right: 8%;
+
+            @media(max-width: 1024px) {
+                top: auto;
+                right: 4%;
+                width: 30%;
+                bottom: 8%;
+            }
+
+            @media(max-width: 768px) {
+                top: auto;
+                right: 5%;
+                width: 35%;
+                bottom: 10%;
+            }
 
             @media(max-width:576px) {
                 top: auto;
@@ -407,6 +479,14 @@ input[type=number] {
             right: 0;
             bottom: 0;
 
+            @media(max-width: 1024px) {
+                width: 30%;
+            }
+
+            @media(max-width: 768px) {
+                width: 35%;
+            }
+
             @media(max-width:576px) {
                 bottom: 0;
                 width: 60%;
@@ -425,6 +505,14 @@ input[type=number] {
         background: #E7F5FB;
         padding: 4rem 0 2rem;
 
+        @media(max-width: 1024px) {
+            padding: 4rem 0 12rem;
+        }
+
+        @media(max-width: 768px) {
+            padding: 2.5rem 0 10rem;
+        }
+
         @media(max-width: 576px) {
             padding: 2rem 0 6rem;
         }
@@ -433,6 +521,15 @@ input[type=number] {
             position: absolute;
             top: 0;
             left: 15%;
+
+            @media(max-width: 1024px) {
+                left: 4%;
+            }
+
+            @media(max-width: 768px) {
+                width: 40%;
+                left: 0;
+            }
 
             @media(max-width:576px) {
                 left: 0;
@@ -455,6 +552,11 @@ input[type=number] {
             font-size: 1.5rem;
             line-height: 36px;
 
+            @media(max-width:768px) {
+                font-size: 1.85rem;
+                line-height: 3.25rem;
+            }
+
             @media(max-width: 576px) {
                 font-size: .95rem;
                 line-height: 28px;
@@ -465,6 +567,10 @@ input[type=number] {
             position: absolute;
             bottom: 0;
             right: 0;
+
+            @media(max-width: 768px) {
+                width: 25%;
+            }
 
             @media(max-width: 576px) {
                 width: 30%;
@@ -483,6 +589,10 @@ input[type=number] {
         background: #FFF;
         padding: 4rem 0 2rem;
 
+        @media(max-width:1024px) {
+            margin: 0;
+        }
+
         @media(max-width:576px) {
             margin: 0;
             padding: 2rem 0 0;
@@ -493,6 +603,17 @@ input[type=number] {
             top: -2.5%;
             right: 2%;
             width: 320px;
+
+            @media(max-width: 1024px) {
+                top: 0;
+                right: 2%;
+                width: 25%;
+            }
+
+            @media(max-width: 768px) {
+                top: 0;
+                width: 30%;
+            }
 
             @media(max-width: 576px) {
                 display: none;
@@ -512,6 +633,14 @@ input[type=number] {
                 color: #FFA726;
                 margin-bottom: 1.25rem;
 
+                @media(max-width: 1024px) {
+                    font-size: 3.25rem;
+                }
+
+                @media(max-width: 768px) {
+                    font-size: 3rem;
+                }
+
                 @media(max-width: 576px) {
                     font-size: 2.5rem;
                     line-height: 3.25rem;
@@ -520,6 +649,10 @@ input[type=number] {
 
             p.subtitle {
                 font-size: 1.75rem;
+
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                }
 
                 @media(max-width: 576px) {
                     font-size: 1.25rem;
@@ -531,13 +664,25 @@ input[type=number] {
             .feat-box {
                 margin-bottom: 4rem;
 
+                @media(max-width: 768px) {
+                    padding: 0 1.25rem;
+                }
+
                 .icon-feature {
                     display: flex;
                     align-items: center;
                     justify-content: center;
 
+                    @media(max-width:768px) {
+                        padding: 0;
+                    }
+
                     img.feat-1 {
                         width: 50%;
+
+                        @media(max-width: 1024px) {
+                            width: 70%;
+                        }
 
                         @media(max-width: 576px) {
                             width: 85px;
@@ -549,10 +694,16 @@ input[type=number] {
                     display: flex;
                     align-items: center;
 
+                    @media(max-width:768px) {
+                        padding: 0;
+                        padding-left: 1.25rem;
+                    }
+
                     @media(max-width:576px) {
                         display: block;
                         text-align: center;
                         margin: 1.25rem 0 0;
+                        padding-left: 0;
                     }
 
                     p.text {
@@ -573,10 +724,17 @@ input[type=number] {
         position: relative;
         margin: 0;
         background: #FFF;
-        padding: 4rem 0 8rem;
+        padding: 4rem 0 9.5rem;
+
+        @media(max-width: 1024px) {
+            background: url('../assets/img/homepage/cover-orange.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 40% 50px;
+            padding: 0 0 4rem;
+        }
 
         @media(max-width: 576px) {
-            background: #FFCA7D;
             background: url('../assets/img/homepage/cover-orange.png') no-repeat left center;
             background-size: cover;
             background-attachment: fixed;
@@ -589,6 +747,19 @@ input[type=number] {
             top: 5%;
             left: 12%;
             z-index: 2;
+
+            @media(max-width: 1024px) {
+                top: 0;
+                left: 2%;
+                z-index: 2;
+            }
+
+            @media(max-width: 768px) {
+                top: 0;
+                left: 1%;
+                z-index: 2;
+                width: 30%;
+            }
 
             @media(max-width:576px) {
                 left: 0;
@@ -607,6 +778,14 @@ input[type=number] {
         .text-top {
             padding: 4rem 0 0;
 
+            @media(max-width: 1024px) {
+                padding: 3.5rem 0 0;
+            }
+
+            @media(max-width: 768px) {
+                padding: 2rem 0 0;
+            }
+
             @media(max-width:576px) {
                 padding: 2.5rem 0 0;
             }
@@ -616,6 +795,11 @@ input[type=number] {
                 font-size: 60px;
                 color: #29C5FF;
                 margin-bottom: 2.5rem;
+
+                @media(max-width: 768px) {
+                    font-size: 3.25rem;
+                    margin-bottom: 2rem;
+                }
 
                 @media(max-width: 576px) {
                     font-size: 3rem;
@@ -627,6 +811,11 @@ input[type=number] {
                 width: 80%;
                 margin: 0 auto 3rem;
                 line-height: 3rem;
+
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                    margin: 0 auto 2rem;
+                }
 
                 @media(max-width: 576px) {
                     width: 95%;
@@ -642,6 +831,11 @@ input[type=number] {
                 margin: 0 auto;
                 line-height: 3rem;
 
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                    width: 80%;
+                }
+
                 @media(max-width: 576px) {
                     width: 95%;
                     font-size: 1.25rem;
@@ -653,6 +847,11 @@ input[type=number] {
         img.line-border {
             width: 100px;
             margin: 5rem auto;
+
+            @media(max-width: 768px) {
+                width: 10%;
+                margin: 3rem auto;
+            }
 
             @media(max-width: 576px) {
                 width: 50px;
@@ -667,6 +866,14 @@ input[type=number] {
                 line-height: 3rem;
                 text-align: left;
                 margin-bottom: 4rem;
+
+                @media(max-width: 1024px) {
+                    font-size: 1.65rem;
+                }
+
+                @media(max-width: 768px) {
+                    margin-bottom: 2.5rem;
+                }
 
                 @media(max-width: 576px) {
                     font-size: 1.25rem;
@@ -717,8 +924,16 @@ input[type=number] {
     section.investor-kidjo {
         font-family: 'bree-serif', sans-serif;
         position: relative;
-        margin: 10rem 0 0;
+        margin: 0;
         padding: 8rem 0;
+
+        @media(max-width: 1024px) {
+            padding: 6rem 0 10rem;
+        }
+
+        @media(max-width: 768px) {
+            padding: 5rem 0 12rem;
+        }
 
         @media(max-width: 576px) {
             margin: 0;
@@ -730,6 +945,16 @@ input[type=number] {
             top: 0;
             right: 10%;
 
+            @media(max-width: 1024px) {
+                right: 3%;
+                width: 20%;
+            }
+
+            @media(max-width: 768px) {
+                right: 2%;
+                width: 25%;
+            }
+
             @media(max-width: 576px) {
                 display: none;
             }
@@ -740,7 +965,11 @@ input[type=number] {
             bottom: 0;
             left: 0;
 
-            @media(max-width: 576px) {
+            @media(max-width: 1024px) {
+                width: 20%;
+            }
+
+            @media(max-width: 768px) {
                 width: 25%;
             }
         }
@@ -750,7 +979,11 @@ input[type=number] {
             bottom: 0;
             right: 0;
 
-            @media(max-width: 576px) {
+            @media(max-width: 1024px) {
+                width: 20%;
+            }
+
+            @media(max-width: 768px) {
                 width: 25%;
             }
         }
@@ -763,7 +996,15 @@ input[type=number] {
             .sub-text-1 {
                 margin: 0;
 
-                @media(max-width: 576px) {
+                @media(max-width: 768px) {
+                    font-size: 1.75rem;
+                }
+
+                @media(max-width: 375px) {
+                    font-size: 1.5rem;
+                }
+
+                @media(max-width: 320px) {
                     font-size: 1.25rem;
                 }
             }
@@ -772,16 +1013,33 @@ input[type=number] {
                 width: 240px;
                 margin: 3.5rem 0;
 
+                @media(max-width: 1024px) {
+                    width: 50%;
+                }
+
                 @media(max-width: 576px) {
-                    width: 150px;
-                    margin: 1.5rem 0;
+                    width: 200px;
+                    margin: 2rem 0;
+                }
+
+                @media(max-width: 375px) {
+                    width: 175px;
+                    margin: 1.75rem 0;
                 }
             }
 
             .sub-text-2 {
                 margin: 0;
 
-                @media(max-width: 576px) {
+                @media(max-width: 768px) {
+                    font-size: 1.75rem;
+                }
+
+                @media(max-width: 375px) {
+                    font-size: 1.5rem;
+                }
+
+                @media(max-width: 320px) {
                     font-size: 1.25rem;
                 }
             }
@@ -793,6 +1051,14 @@ input[type=number] {
         margin: 0;
         background: #FFF;
         padding: 6rem 0 5rem;
+
+        @media(max-width: 1024px) {
+            background: url('../assets/img/homepage/cover-pink.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 45% 100px;
+            padding: 4rem 0 5rem;
+        }
 
         @media(max-width: 576px) {
             background: url('../assets/img/homepage/cover-pink.png') no-repeat left center;
@@ -810,7 +1076,7 @@ input[type=number] {
             position: absolute;
             top: 0;
 
-            @media(max-width: 576px) {
+            @media(max-width: 1024px) {
                 display: none;
             }
         }
@@ -840,6 +1106,14 @@ input[type=number] {
                     font-size: 2.25rem;
 
                     @media(max-width:576px) {
+                        font-size: 1.5rem;
+                    }
+
+                    @media(max-width:375px) {
+                        font-size: 1.25rem;
+                    }
+
+                    @media(max-width:320px) {
                         font-size: 1.15rem;
                     }
                 }
@@ -848,6 +1122,14 @@ input[type=number] {
                     font-size: 1.5rem;
 
                     @media(max-width: 576px) {
+                        font-size: 1rem;
+                    }
+
+                    @media(max-width: 375px) {
+                        font-size: .85rem;
+                    }
+
+                    @media(max-width: 320px) {
                         font-size: .75rem;
                     }
                 }
@@ -873,6 +1155,14 @@ input[type=number] {
         background: #FFF;
         padding: 6rem 0 4rem;
 
+        @media(max-width: 1024px) {
+            padding: 4rem 0;
+        }
+
+        @media(max-width: 768px) {
+            padding: 3.5rem 0 4rem;
+        }
+
         @media(max-width: 576px) {
             padding: 3rem 0 12rem;
         }
@@ -882,6 +1172,17 @@ input[type=number] {
             top: 0;
             left: 18%;
             z-index: 2;
+
+            @media(max-width: 1024px) {
+                left: 15%;
+                width: 20%;
+            }
+
+            @media(max-width: 768px) {
+                left: 5%;
+                z-index: 2;
+                width: 25%;
+            }
 
             @media(max-width:576px) {
                 left: 0;
@@ -896,6 +1197,11 @@ input[type=number] {
                 color: #FFA726;
                 margin-bottom: 4rem;
 
+                @media(max-width: 768px) {
+                    font-size: 3.75rem;
+                    margin-bottom: 3.5rem;
+                }
+
                 @media(max-width:576px) {
                     font-size: 3rem;
                     color: #FFA726;
@@ -907,6 +1213,11 @@ input[type=number] {
         div.desc-learning {
             font-size: 1.75rem;
 
+            @media(max-wdith: 768px) {
+                font-size: 1.5rem;
+                padding: 0 1rem;
+            }
+
             @media(max-width:576px) {
                 font-size: 1.25rem;
             }
@@ -916,6 +1227,11 @@ input[type=number] {
                 width: 90%;
                 line-height: 3.25rem;
 
+                @media(max-width: 768px) {
+                    width: 100%;
+                    line-height: 3rem;
+                }
+
                 @media(max-width: 576px) {
                     width: 100%;
                     line-height: 2rem;
@@ -924,6 +1240,17 @@ input[type=number] {
 
             .p-two {
                 width: 90%;
+
+                @media(max-width: 768px) {
+                    width: 100%;
+                    line-height: 3rem;
+                }
+
+                @media(max-width: 576px) {
+                    width: 100%;
+                    line-height: 2rem;
+                    margin-bottom: 2rem;
+                }
             }
         }
 
@@ -932,6 +1259,16 @@ input[type=number] {
             left: 10%;
             bottom: 0;
 
+            @media(max-width: 1024px) {
+                left: 5%
+            }
+
+            @media(max-width: 768px) {
+                left: 5%;
+                bottom: 0;
+                width: 40%;
+            }
+
             @media(max-width:576px) {
                 left: 50%;
                 transform: translate(-65%, 0%);
@@ -939,13 +1276,17 @@ input[type=number] {
             }
 
             @media(max-width:320px) {
-                width: 50%;
+                width: 65%;
             }
         }
 
         .about-skill {
             padding: 5rem 0 2rem;
             text-align: center;
+
+            @media(max-width: 768px) {
+                padding: 2rem 0;
+            }
 
             @media(max-width: 576px) {
                 padding: 1rem 0 1.5rem;
@@ -958,6 +1299,12 @@ input[type=number] {
                 line-height: 3.75rem;
                 margin-bottom: 1.5rem;
 
+                @media(max-width: 768px) {
+                    font-size: 2.25rem;
+                    line-height: 3.25rem;
+                    margin-bottom: 1rem;
+                }
+
                 @media(max-width:576px) {
                     font-size: 1.75rem;
                     line-height: 2.25rem;
@@ -967,13 +1314,29 @@ input[type=number] {
                 }
             }
 
-            @media(max-width: 576px) {
-                .btn.btn-green {
+            .btn.btn-green {
+                border: 3px solid #6D4C41;
+
+                @media(max-width: 1024px) {
+                    font-size: 1.85rem;
+                }
+
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                }
+
+                @media(max-width: 576px) {
                     padding: .25rem 1.25rem !important;
                     font-size: 1rem;
                     margin-top: .5rem;
+
+                }
+
+                @media(max-width: 320px) {
+                    margin-top: 1rem;
                 }
             }
+
         }
     }
 
@@ -982,6 +1345,22 @@ input[type=number] {
         margin: 0;
         background: #FFF;
         padding: 6rem 0 5.5rem;
+
+        @media(max-width: 1024px) {
+            background: url('../assets/img/homepage/cover-blue-2.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 45% 100px;
+            padding: 4.5rem 0 5.5rem;
+        }
+
+        @media(max-width: 768px) {
+            background: url('../assets/img/homepage/cover-blue-2.png') no-repeat left center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: 40% 50px;
+            padding: 4rem 0 5rem;
+        }
 
         @media(max-width: 576px) {
             background: url('../assets/img/homepage/cover-blue-2.png') no-repeat left center;
@@ -995,7 +1374,7 @@ input[type=number] {
             position: absolute;
             top: 0;
 
-            @media(max-width: 576px) {
+            @media(max-width: 1024px) {
                 display: none;
             }
         }
@@ -1005,6 +1384,11 @@ input[type=number] {
             top: 0;
             right: 10%;
 
+            @media(max-width: 1024px) {
+                right: 4%;
+                width: 25%;
+            }
+
             @media(max-width: 576px) {
                 display: none;
             }
@@ -1012,6 +1396,10 @@ input[type=number] {
 
         .head-title {
             margin: 0 0 4rem;
+
+            @media(max-width: 768px) {
+                margin: 0 0 3rem;
+            }
 
             h1.product {
                 font-family: 'bree-serif';
@@ -1029,6 +1417,15 @@ input[type=number] {
                 font-size: 1.75rem;
                 line-height: 4rem;
 
+                @media(max-width: 1024px) {
+                    line-height: 3.25rem;
+                }
+
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                    line-height: 2.85rem;
+                }
+
                 @media(max-width: 576px) {
                     font-size: 1.25rem;
                     line-height: 2rem;
@@ -1044,6 +1441,13 @@ input[type=number] {
                 margin-right: 2rem;
                 border: 5px solid #6D4C41;
                 border-radius: 1.75rem;
+
+                @media(max-width: 768px) {
+                    max-width: none;
+                    margin: 0;
+                    padding: 2rem 4rem;
+                    margin-bottom: 4rem;
+                }
 
                 @media(max-width: 576px) {
                     max-width: none;
@@ -1101,6 +1505,12 @@ input[type=number] {
                 border: 5px solid #6D4C41;
                 border-radius: 1.75rem;
 
+                @media(max-width: 768px) {
+                    max-width: none;
+                    margin: 0;
+                    padding: 2rem 4rem 12rem;
+                }
+
                 @media(max-width: 576px) {
                     max-width: none;
                     padding: 2rem 1rem 10rem;
@@ -1143,6 +1553,13 @@ input[type=number] {
                         font-size: 1.25rem;
                         color: #6D4C41;
 
+                        @media(max-width: 768px) {
+                            padding: 2rem 1rem;
+                            font-size: 1.5rem;
+                            width: 85%;
+                            margin: 2rem auto;
+                        }
+
                         @media(max-width: 576px) {
                             padding: 1.25rem 1rem;
                             border: 3px solid #6D4C41;
@@ -1164,6 +1581,10 @@ input[type=number] {
                     border: 4px solid #6D4C41;
                     border-radius: 1rem;
                     font-size: 1.5rem;
+
+                    @media(max-width: 768px) {
+                        padding: .75rem 1.75rem !important;
+                    }
 
                     @media(max-width:576px) {
                         padding: .4rem 1rem !important;
@@ -1195,6 +1616,14 @@ input[type=number] {
         background: #FFF;
         padding: 5rem 0 4rem;
 
+        @media(max-width: 1024px) {
+            padding: 4rem 0;
+        }
+
+        @media(max-width: 768px) {
+            padding: 3.5rem 0 4rem;
+        }
+
         @media(max-width: 576px) {
             padding: 2.5rem 0 4rem;
         }
@@ -1204,6 +1633,18 @@ input[type=number] {
             top: 0;
             left: 15%;
             z-index: 2;
+
+            @media(max-width: 1024px) {
+                left: 10%;
+                z-index: 2;
+                width: 20%;
+            }
+
+            @media(max-width: 768px) {
+                left: 2%;
+                z-index: 2;
+                width: 25%;
+            }
 
             @media(max-width:576px) {
                 left: 0;
@@ -1217,6 +1658,11 @@ input[type=number] {
                 font-size: 60px;
                 color: #29C5FF;
                 margin-bottom: 4rem;
+
+                @media(max-width: 768px) {
+                    font-size: 3.5rem;
+                    margin-bottom: 3rem;
+                }
 
                 @media(max-width: 576px) {
                     font-size: 2.75rem;
@@ -1250,7 +1696,7 @@ input[type=number] {
                 .swiper-button-next {
                     right: -14px;
                 }
-    
+
                 .swiper-button-prev {
                     left: -14px;
                 }
@@ -1269,6 +1715,17 @@ input[type=number] {
                 padding: 0 12rem;
                 line-height: 3.5rem;
 
+                @media(max-width: 1024px) {
+                    padding: 0 8rem;
+                    line-height: 3rem;
+                }
+
+                @media(max-width: 768px) {
+                    font-size: 1.5rem;
+                    padding: 0 5rem;
+                    line-height: 3rem;
+                }
+
                 @media(max-width:576px) {
                     padding: 0 3rem;
                     font-size: 1rem;
@@ -1279,6 +1736,11 @@ input[type=number] {
                     position: relative;
                     padding-bottom: 5rem;
                     margin-bottom: 2rem;
+
+                    @media(max-width: 768px) {
+                        padding-bottom: 2.5rem;
+                        margin-bottom: 1.5rem;
+                    }
 
                     @media(max-width: 576px) {
                         padding-bottom: 2rem;
@@ -1316,6 +1778,10 @@ input[type=number] {
                     font-size: 2.25rem;
                     color: #FF89B9;
 
+                    @media(max-width: 768px) {
+                        font-size: 2rem;
+                    }
+
                     @media(max-width:576px) {
                         font-size: 1.25rem;
                     }
@@ -1330,6 +1796,10 @@ input[type=number] {
         background: #C5E7F6;
         padding: 5rem 0 .5rem;
 
+        @media(max-width: 768px) {
+            padding: 3rem 0 .5rem;
+        }
+
         @media(max-width: 576px) {
             padding: 2.5rem 0 .5rem;
         }
@@ -1340,8 +1810,30 @@ input[type=number] {
             right: 15%;
             width: 20%;
 
+            @media(max-width: 1024px){
+                right: 10%;
+                width: 25%;
+            }
+
+            @media(max-width: 768px) {
+                right: 10%;
+                width: 25%;
+            }
+
             @media(max-width: 576px) {
                 display: none
+            }
+        }
+
+        @media(max-width: 1024px) {
+            img.logo-footer {
+                width: 25%;
+            }
+        }
+
+        @media(max-width: 768px) {
+            img.logo-footer {
+                width: 30%;
             }
         }
 
@@ -1354,6 +1846,10 @@ input[type=number] {
         .terms-privacy {
             font-family: 'bree-serif', sans-serif;
             margin: 4rem auto 2rem;
+
+            @media(max-width: 768px) {
+                margin: 3rem auto 1rem;
+            }
 
             @media(max-width: 576px) {
                 margin: 2rem auto;
@@ -1387,6 +1883,10 @@ input[type=number] {
                         padding: .5rem 1.25rem;
                         color: #29B6F6;
 
+                        @media(max-width: 768px) {
+                            padding: .5rem .25rem;
+                        }
+
                         &:hover {
                             outline: 0;
                             text-decoration: none;
@@ -1394,6 +1894,11 @@ input[type=number] {
                             background: #29B6F6;
                             padding: .5rem 1.25rem;
                             border-radius: 1rem;
+
+                            @media(max-width: 768px) {
+                                padding: .35rem .85rem;
+                                border-radius: .5rem;
+                            }
 
                             @media(max-width:576px) {
                                 padding: .15rem 1rem;
@@ -1413,8 +1918,17 @@ input[type=number] {
                 justify-content: center;
                 padding: 0;
 
+                @media(max-width: 1024px){
+                    padding-left: 1rem;
+                }
+
+                @media(max-width: 768px) {
+                    padding-left: .75rem;
+                }
+
                 @media(max-width: 576px) {
                     padding: 0 0 1.25rem;
+                    padding-left: 0;
                 }
             }
         }
@@ -1423,6 +1937,10 @@ input[type=number] {
             display: flex;
             justify-content: center;
             margin: 1rem 0 2rem;
+
+            @media(max-width: 768px) {
+                margin: 1rem 0;
+            }
 
             @media(max-width: 576px) {
                 margin: 1rem 0 0;
@@ -1435,6 +1953,15 @@ input[type=number] {
                 border-radius: 100%;
                 border: 3px solid #6D4C41;
                 background: #FFF;
+
+                &:hover {
+                    background: #6D4C41;
+                    text-decoration: none;
+
+                    i {
+                        color: #FFF !important;
+                    }
+                }
 
                 @media(max-width: 576px) {
                     width: 50px;
