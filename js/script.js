@@ -1,3 +1,6 @@
+
+AOS.init();
+
 // Initialize Swiper
 var swiper = new Swiper('.swiper-container', {
     navigation: {
