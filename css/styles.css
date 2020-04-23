@@ -13,8 +13,15 @@
 }
 
 @font-face {
-  font-family: 'myriad-pro-regular';
-  src: url("../assets/fonts/myriad-pro-regular/MyriadPro-Regular.eot"), url("../assets/fonts/myriad-pro-regular/MyriadPro-Regular.woff") format("woff"), url("../assets/fonts/myriad-pro-regular/MyriadPro-Regular.ttf") format("truetype"), url("../assets/fonts/myriad-pro-regular/MyriadPro-Regular.svg") format("svg");
+  font-family: 'bree-bold';
+  src: url("../assets/fonts/bree-bold/Bree-Bold.eot"), url("../assets/fonts/bree-bold/Bree-Bold.woff") format("woff"), url("../assets/fonts/bree-bold/Bree-Bold.ttf") format("truetype"), url("../assets/fonts/bree-bold/Bree-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bree-light';
+  src: url("../assets/fonts/bree-light/Bree-Light.eot"), url("../assets/fonts/bree-light/Bree-Light.woff") format("woff"), url("../assets/fonts/bree-light/Bree-Light.ttf") format("truetype"), url("../assets/fonts/bree-light/Bree-Light.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -45,6 +52,22 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.bree-bold {
+  font-family: 'bree-bold', sans-serif !important;
+}
+
+.bree-light {
+  font-family: 'bree-light', sans-serif !important;
+}
+
+.bree-regular {
+  font-family: 'bree-regular', sans-serif !important;
+}
+
+.bree-serif {
+  font-family: 'bree-serif', sans-serif !important;
 }
 
 @keyframes float {
@@ -703,7 +726,7 @@ input[type=number] {
 }
 
 .homepage section.hi-kidjo .text-hi {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 2rem;
 }
 
