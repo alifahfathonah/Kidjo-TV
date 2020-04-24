@@ -581,10 +581,10 @@ input[type=number] {
 
 .homepage section.header-banner img.star-icon {
   position: absolute;
-  top: 55%;
-  right: 6%;
+  top: 65%;
+  right: 5%;
   animation: float 3s ease-in-out infinite;
-  width: 20%;
+  width: 15%;
 }
 
 @media (max-width: 1024px) {
@@ -607,9 +607,9 @@ input[type=number] {
 
 @media (max-width: 375px) {
   .homepage section.header-banner img.star-icon {
-    bottom: 10%;
-    right: 8%;
-    width: 45%;
+    bottom: 7%;
+    right: 5%;
+    width: 40%;
   }
 }
 
@@ -625,7 +625,7 @@ input[type=number] {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 25%;
+  width: 250;
 }
 
 @media (max-width: 1024px) {
@@ -643,7 +643,7 @@ input[type=number] {
 
 @media (max-width: 375px) {
   .homepage section.header-banner img.girl-tablet {
-    width: 50%;
+    width: 40%;
   }
 }
 
@@ -726,25 +726,17 @@ input[type=number] {
 }
 
 .homepage section.hi-kidjo .text-hi {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.15rem;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
   .homepage section.hi-kidjo .text-hi {
     font-size: 1.75rem;
-    line-height: 3.25rem;
   }
 }
 
 @media (max-width: 576px) {
-  .homepage section.hi-kidjo .text-hi {
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
-}
-
-@media (max-width: 320px) {
   .homepage section.hi-kidjo .text-hi {
     font-size: 1.15rem;
   }
@@ -792,7 +784,7 @@ input[type=number] {
 @media (max-width: 576px) {
   .homepage section.feature-kidjo {
     margin: 0;
-    padding: 2rem 0 0;
+    padding: 2rem 0;
   }
 }
 
@@ -872,19 +864,7 @@ input[type=number] {
 }
 
 .homepage section.feature-kidjo .head-feature p.subtitle {
-  font-size: 1.5rem;
-}
-
-@media (max-width: 576px) {
-  .homepage section.feature-kidjo .head-feature p.subtitle {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.feature-kidjo .head-feature p.subtitle {
-    font-size: 1.15rem;
-  }
+  font-size: 1.15rem;
 }
 
 .homepage section.feature-kidjo .content-feature .feat-box {
@@ -894,6 +874,12 @@ input[type=number] {
 @media (max-width: 768px) {
   .homepage section.feature-kidjo .content-feature .feat-box {
     padding: 0 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .homepage section.feature-kidjo .content-feature .feat-box {
+    margin-bottom: 2rem;
   }
 }
 
@@ -918,7 +904,7 @@ input[type=number] {
 }
 
 .homepage section.feature-kidjo .content-feature .feat-box .icon-feature img.feat-1 {
-  width: 70%;
+  width: 60%;
 }
 
 @media (max-width: 1024px) {
@@ -929,7 +915,7 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.feature-kidjo .content-feature .feat-box .icon-feature img.feat-1 {
-    width: 70px;
+    width: 55px;
   }
 }
 
@@ -962,22 +948,20 @@ input[type=number] {
 }
 
 .homepage section.feature-kidjo .content-feature .feat-box .desc-feature p.text {
-  width: 70%;
-  font-size: 1.5rem;
+  width: 60%;
+  font-size: 1.15rem;
   margin: 0;
 }
 
 @media (max-width: 576px) {
   .homepage section.feature-kidjo .content-feature .feat-box .desc-feature p.text {
     width: auto;
-    font-size: 1.25rem;
     padding: 0 1.5rem;
   }
 }
 
 @media (max-width: 320px) {
   .homepage section.feature-kidjo .content-feature .feat-box .desc-feature p.text {
-    font-size: 1.15rem;
     padding: 0;
   }
 }
@@ -1103,10 +1087,10 @@ input[type=number] {
 }
 
 .homepage section.who-kidjo .text-top p.desc-1 {
-  font-size: 1.5rem;
-  width: 65%;
-  margin: 0 auto 3rem;
-  line-height: 2.5rem;
+  font-size: 1.15rem;
+  width: 55%;
+  margin: 0 auto 2rem;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1118,25 +1102,17 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.who-kidjo .text-top p.desc-1 {
-    width: 95%;
-    font-size: 1.25rem;
-    line-height: 2rem;
+    width: 100%;
+    font-size: 1.15rem;
     margin: 0 auto 1.5rem;
   }
 }
 
-@media (max-width: 320px) {
-  .homepage section.who-kidjo .text-top p.desc-1 {
-    width: 100%;
-    font-size: 1.15rem;
-  }
-}
-
 .homepage section.who-kidjo .text-top p.desc-2 {
-  font-size: 1.5rem;
-  width: 65%;
+  font-size: 1.15rem;
+  width: 55%;
   margin: 0 auto;
-  line-height: 2.5rem;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1148,22 +1124,14 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.who-kidjo .text-top p.desc-2 {
-    width: 95%;
-    font-size: 1.25rem;
-    line-height: 2rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.who-kidjo .text-top p.desc-2 {
     width: 100%;
     font-size: 1.15rem;
   }
 }
 
 .homepage section.who-kidjo img.line-border {
-  width: 70px;
-  margin: 4rem auto;
+  width: 55px;
+  margin: 2.5rem auto;
 }
 
 @media (max-width: 768px) {
@@ -1182,10 +1150,10 @@ input[type=number] {
 
 .homepage section.who-kidjo .text-bottom p {
   font-family: 'bree-regular', sans-serif;
-  font-size: 1.5rem;
-  line-height: 3rem;
+  font-size: 1.15rem;
+  line-height: 30px;
   text-align: left;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 @media (max-width: 1024px) {
@@ -1202,16 +1170,9 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.who-kidjo .text-bottom p {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.15rem;
     text-align: center;
     margin-bottom: 2.5rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.who-kidjo .text-bottom p {
-    font-size: 1.15rem;
   }
 }
 
@@ -1222,7 +1183,7 @@ input[type=number] {
 }
 
 .homepage section.who-kidjo .founder-kidjo img.img-fluid.founder {
-  width: 150px;
+  width: 125px;
   height: auto;
   margin-right: 1.5rem;
 }
@@ -1236,7 +1197,7 @@ input[type=number] {
 
 .homepage section.who-kidjo .founder-kidjo .desc-founder .name {
   font-family: 'bree-serif', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -1247,7 +1208,7 @@ input[type=number] {
 }
 
 .homepage section.who-kidjo .founder-kidjo .desc-founder .jobs {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
 }
 
 @media (max-width: 576px) {
@@ -1428,7 +1389,7 @@ input[type=number] {
   position: relative;
   margin: 0;
   background: #FFF;
-  padding: 5rem 0 4rem;
+  padding: 4rem 0;
 }
 
 @media (max-width: 1024px) {
@@ -1466,24 +1427,17 @@ input[type=number] {
 }
 
 .homepage section.expert-kidjo .text-expert {
-  font-size: 1.5rem;
-  line-height: 3rem;
+  font-size: 1.15rem;
+  line-height: 30px;
   text-align: left;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 576px) {
   .homepage section.expert-kidjo .text-expert {
-    font-size: 1.25rem;
-    line-height: 2rem;
     text-align: center;
     margin-bottom: 2rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.expert-kidjo .text-expert {
-    font-size: 1.15rem;
+    padding: 0 1rem;
   }
 }
 
@@ -1495,7 +1449,7 @@ input[type=number] {
 
 .homepage section.expert-kidjo .expert-kidjo-human .desc-expert .name {
   font-family: 'bree-serif', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -1518,7 +1472,7 @@ input[type=number] {
 }
 
 .homepage section.expert-kidjo .expert-kidjo-human .desc-expert .jobs {
-  font-size: 1.35rem;
+  font-size: 1.15rem;
 }
 
 @media (max-width: 576px) {
@@ -1540,7 +1494,7 @@ input[type=number] {
 }
 
 .homepage section.expert-kidjo .expert-kidjo-human img.expert {
-  width: 150px;
+  width: 125px;
   height: auto;
   margin-left: 1.5rem;
 }
@@ -1557,7 +1511,7 @@ input[type=number] {
   position: relative;
   margin: 0;
   background: #FFF;
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 
 @media (max-width: 1024px) {
@@ -1636,7 +1590,7 @@ input[type=number] {
 }
 
 .homepage section.learning div.desc-learning {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 @media (max-wdith: 768px) {
@@ -1648,12 +1602,6 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.learning div.desc-learning {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.learning div.desc-learning {
     font-size: 1.15rem;
   }
 }
@@ -1661,7 +1609,7 @@ input[type=number] {
 .homepage section.learning div.desc-learning .p-one {
   margin: 0 0 2rem;
   width: 75%;
-  line-height: 3rem;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1674,13 +1622,13 @@ input[type=number] {
 @media (max-width: 576px) {
   .homepage section.learning div.desc-learning .p-one {
     width: 100%;
-    line-height: 2rem;
+    line-height: 30px;
   }
 }
 
 .homepage section.learning div.desc-learning .p-two {
   width: 75%;
-  line-height: 3rem;
+  line-height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1693,26 +1641,33 @@ input[type=number] {
 @media (max-width: 576px) {
   .homepage section.learning div.desc-learning .p-two {
     width: 100%;
-    line-height: 2rem;
     margin-bottom: 2rem;
+    line-height: 30px;
   }
 }
 
-.homepage section.learning img.boy-tablet {
+@media (max-width: 576px) {
+  .homepage section.learning .learn-bottom {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+.homepage section.learning .learn-bottom img.boy-tablet {
   position: absolute;
-  left: 15%;
+  left: 25%;
   bottom: 0;
-  width: 25%;
+  width: 50%;
 }
 
 @media (max-width: 1024px) {
-  .homepage section.learning img.boy-tablet {
+  .homepage section.learning .learn-bottom img.boy-tablet {
     left: 5%;
   }
 }
 
 @media (max-width: 768px) {
-  .homepage section.learning img.boy-tablet {
+  .homepage section.learning .learn-bottom img.boy-tablet {
     left: 5%;
     bottom: 0;
     width: 40%;
@@ -1720,38 +1675,45 @@ input[type=number] {
 }
 
 @media (max-width: 576px) {
-  .homepage section.learning img.boy-tablet {
+  .homepage section.learning .learn-bottom img.boy-tablet {
     left: 50%;
-    transform: translate(-65%, 0%);
+    transform: translate(-65%, 10%);
     width: 50%;
+    top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .homepage section.learning .learn-bottom img.boy-tablet {
+    transform: translate(-65%, 20%);
   }
 }
 
 @media (max-width: 320px) {
-  .homepage section.learning img.boy-tablet {
-    width: 65%;
+  .homepage section.learning .learn-bottom img.boy-tablet {
+    width: 60%;
   }
 }
 
-.homepage section.learning .about-skill {
-  padding: 5rem 0 2rem;
+.homepage section.learning .learn-bottom .about-skill {
+  padding: 5rem 0;
   text-align: center;
 }
 
 @media (max-width: 768px) {
-  .homepage section.learning .about-skill {
+  .homepage section.learning .learn-bottom .about-skill {
     padding: 2rem 0;
   }
 }
 
 @media (max-width: 576px) {
-  .homepage section.learning .about-skill {
+  .homepage section.learning .learn-bottom .about-skill {
     padding: 1rem 0 1.5rem;
     text-align: center;
   }
 }
 
-.homepage section.learning .about-skill .text-about {
+.homepage section.learning .learn-bottom .about-skill .text-about {
   width: 55%;
   margin: 0 auto 1.25rem;
   color: #FFA726;
@@ -1761,13 +1723,13 @@ input[type=number] {
 }
 
 @media (max-width: 1024px) {
-  .homepage section.learning .about-skill .text-about {
+  .homepage section.learning .learn-bottom .about-skill .text-about {
     width: 80%;
   }
 }
 
 @media (max-width: 768px) {
-  .homepage section.learning .about-skill .text-about {
+  .homepage section.learning .learn-bottom .about-skill .text-about {
     width: 85%;
     font-size: 2.25rem;
     line-height: 3.25rem;
@@ -1776,7 +1738,7 @@ input[type=number] {
 }
 
 @media (max-width: 576px) {
-  .homepage section.learning .about-skill .text-about {
+  .homepage section.learning .learn-bottom .about-skill .text-about {
     font-size: 1.75rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
@@ -1785,24 +1747,24 @@ input[type=number] {
   }
 }
 
-.homepage section.learning .about-skill .btn.btn-green {
+.homepage section.learning .learn-bottom .about-skill .btn.btn-green {
   border: 3px solid #6D4C41;
 }
 
 @media (max-width: 1024px) {
-  .homepage section.learning .about-skill .btn.btn-green {
+  .homepage section.learning .learn-bottom .about-skill .btn.btn-green {
     font-size: 1.85rem;
   }
 }
 
 @media (max-width: 768px) {
-  .homepage section.learning .about-skill .btn.btn-green {
+  .homepage section.learning .learn-bottom .about-skill .btn.btn-green {
     font-size: 1.5rem;
   }
 }
 
 @media (max-width: 576px) {
-  .homepage section.learning .about-skill .btn.btn-green {
+  .homepage section.learning .learn-bottom .about-skill .btn.btn-green {
     padding: .25rem 1.25rem !important;
     font-size: 1rem;
     margin-top: .5rem;
@@ -1810,7 +1772,7 @@ input[type=number] {
 }
 
 @media (max-width: 320px) {
-  .homepage section.learning .about-skill .btn.btn-green {
+  .homepage section.learning .learn-bottom .about-skill .btn.btn-green {
     margin-top: 1rem;
   }
 }
@@ -1903,7 +1865,7 @@ input[type=number] {
   font-family: 'bree-serif';
   font-size: 3.15rem;
   color: #FFF;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 @media (max-width: 576px) {
@@ -1920,8 +1882,10 @@ input[type=number] {
 }
 
 .homepage section.our-products .head-title h4.desc-title {
-  font-size: 1.5rem;
-  line-height: 3rem;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -1939,8 +1903,9 @@ input[type=number] {
 
 @media (max-width: 576px) {
   .homepage section.our-products .head-title h4.desc-title {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    width: 90%;
+    font-size: 1.15rem;
+    line-height: 30px;
   }
 }
 
@@ -1953,7 +1918,7 @@ input[type=number] {
 .homepage section.our-products .item-product .product-1 {
   background: #54C5F8;
   max-width: 48%;
-  padding: 3rem 2rem 4rem;
+  padding: 3rem 2rem 8rem;
   margin-right: 2rem;
   border: 5px solid #6D4C41;
   border-radius: 1.75rem;
@@ -2002,21 +1967,13 @@ input[type=number] {
 }
 
 .homepage section.our-products .item-product .product-1 .desc-item {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.15rem;
+  line-height: 30px;
 }
 
 @media (max-width: 576px) {
   .homepage section.our-products .item-product .product-1 .desc-item {
-    font-size: 1.25rem;
-    line-height: 2rem;
     text-align: left;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.our-products .item-product .product-1 .desc-item {
-    font-size: 1.15rem;
   }
 }
 
@@ -2045,7 +2002,7 @@ input[type=number] {
   position: relative;
   background: #FFA726;
   max-width: 48%;
-  padding: 3rem 2rem 4rem;
+  padding: 3rem 2rem 8rem;
   border: 5px solid #6D4C41;
   border-radius: 1.75rem;
 }
@@ -2086,21 +2043,13 @@ input[type=number] {
 }
 
 .homepage section.our-products .item-product .product-2 .desc-item {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.15rem;
+  line-height: 30px;
 }
 
 @media (max-width: 576px) {
   .homepage section.our-products .item-product .product-2 .desc-item {
-    font-size: 1.25rem;
-    line-height: 2rem;
     text-align: left;
-  }
-}
-
-@media (max-width: 320px) {
-  .homepage section.our-products .item-product .product-2 .desc-item {
-    font-size: 1.15rem;
   }
 }
 
@@ -2169,7 +2118,7 @@ input[type=number] {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 10rem;
+  width: 9rem;
 }
 
 @media (max-width: 576px) {
