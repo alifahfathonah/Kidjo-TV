@@ -10,7 +10,7 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
-// Header Banner
+// Animation Banner
 TweenMax.to(".overlay img", 2, {
     duration: 3,
     opacity: 0,
@@ -84,6 +84,26 @@ TweenMax.from(".girl-tablet", 1, {
 
 TweenMax.from(".star-icon", 1, {
     delay: 5,
+    opacity: 0,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".title-banner", 1, {
+    delay: 2.5,
+    opacity: 0,
+    y: 50,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".ic-curriculum", 1, {
+    delay: 3,
+    opacity: 0,
+    y: 150,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".ic-star", 1, {
+    delay: 3.5,
     opacity: 0,
     ease: Expo.easeInOut
 })

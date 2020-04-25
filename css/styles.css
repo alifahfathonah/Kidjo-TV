@@ -135,6 +135,14 @@ input[type=number] {
   background: #FFF !important;
 }
 
+.bg-yellow {
+  background: #FFCA28 !important;
+}
+
+.bg-pink {
+  background: #FF89B9 !important;
+}
+
 .btn {
   text-align: center;
   white-space: nowrap;
@@ -1221,7 +1229,7 @@ input[type=number] {
   font-family: 'bree-serif', sans-serif;
   position: relative;
   margin: 0;
-  padding: 5rem 0 10rem;
+  padding: 6rem 0 10rem;
 }
 
 @media (max-width: 1024px) {
@@ -1310,7 +1318,7 @@ input[type=number] {
 
 .homepage section.investor-kidjo .investor-box {
   font-family: 'bree-serif', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   text-align: center;
 }
 
@@ -2299,11 +2307,11 @@ input[type=number] {
 
 .homepage section.in-press .swiper-container .swiper-slide {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   background: #fff;
   height: auto;
   padding: 0 12rem;
-  line-height: 2.5rem;
+  line-height: 30px;
 }
 
 @media (max-width: 1024px) {
@@ -2331,12 +2339,15 @@ input[type=number] {
 
 .homepage section.in-press .swiper-container .swiper-slide p.text-center {
   position: relative;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   margin-bottom: 2rem;
+  width: 75%;
+  margin: 0 auto 2rem;
 }
 
 @media (max-width: 768px) {
   .homepage section.in-press .swiper-container .swiper-slide p.text-center {
+    width: auto;
     padding-bottom: 2.5rem;
     margin-bottom: 1.5rem;
   }
@@ -2495,6 +2506,686 @@ input[type=number] {
     padding: .25rem 2rem !important;
     border: 2px solid #6D4C41;
     font-size: 1.15rem;
+  }
+}
+
+.curriculum section.banner-curriculum {
+  position: relative;
+  height: 100vh;
+  padding: 7rem 0 0rem;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.banner-curriculum {
+    height: 44vh;
+    padding: 7rem 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.banner-curriculum {
+    height: 45vh;
+    padding: 6.5rem 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.banner-curriculum {
+    padding: 5rem 0 0;
+    width: 100%;
+    height: 65vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.banner-curriculum {
+    padding: 4.5rem 0 0;
+  }
+}
+
+.curriculum section.banner-curriculum img.cover {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.banner-curriculum img.cover {
+    object-fit: cover;
+    height: 55vh;
+    object-position: 20% 0;
+  }
+}
+
+.curriculum section.banner-curriculum h1.title-banner {
+  width: 60%;
+  color: #FFF;
+  font-size: 4rem;
+  margin: 5rem 0 0;
+  line-height: 4rem;
+  letter-spacing: 1px;
+  text-shadow: 5px 0px 4px #000;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.banner-curriculum h1.title-banner {
+    width: 80%;
+    line-height: 4.5rem;
+    margin: 4rem 4rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.banner-curriculum h1.title-banner {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 6px 0px 2px #6D4C41;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.banner-curriculum h1.title-banner {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+    margin: 2rem 0;
+    text-shadow: 3px 0px 2px #6D4C41;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .curriculum section.banner-curriculum h1.title-banner {
+    margin-bottom: 4rem;
+    margin: 2.5rem 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.banner-curriculum h1.title-banner {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    line-height: 2.75rem;
+    margin-bottom: 1.75rem;
+  }
+}
+
+.curriculum section.banner-curriculum img.ic-star {
+  position: absolute;
+  bottom: 15%;
+  right: 4%;
+  animation: float 3s ease-in-out infinite;
+  width: 25%;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.banner-curriculum img.ic-star {
+    top: auto;
+    right: 1%;
+    width: 35%;
+    bottom: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.banner-curriculum img.ic-star {
+    top: auto;
+    bottom: 10%;
+    right: 22%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 375px) {
+  .curriculum section.banner-curriculum img.ic-star {
+    bottom: 8%;
+    right: 18%;
+    width: 55%;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.banner-curriculum img.ic-star {
+    bottom: 6%;
+    right: 18%;
+    width: 55%;
+  }
+}
+
+.curriculum section.banner-curriculum img.ic-curriculum {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  width: 25%;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.banner-curriculum img.ic-curriculum {
+    width: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.banner-curriculum img.ic-curriculum {
+    right: 5%;
+    bottom: 0;
+    width: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 375px) {
+  .curriculum section.banner-curriculum img.ic-curriculum {
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.banner-curriculum img.ic-curriculum {
+    width: 45%;
+  }
+}
+
+.curriculum section.skills-curriculum {
+  position: relative;
+  margin: 0;
+  background: #E7F5FB;
+  padding: 5rem 0;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.skills-curriculum {
+    padding: 4rem 2rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-curriculum {
+    padding: 2.5rem 0 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-curriculum {
+    padding: 3rem 0 4rem;
+  }
+}
+
+.curriculum section.skills-curriculum img.line-1 {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 15%;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.skills-curriculum img.line-1 {
+    left: 25%;
+    width: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-curriculum img.line-1 {
+    width: 16%;
+    left: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-curriculum img.line-1 {
+    left: 0;
+    display: none;
+  }
+}
+
+.curriculum section.skills-curriculum h1.text-center {
+  font-family: 'bree-serif';
+  font-size: 3.15rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-curriculum h1.text-center {
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.skills-curriculum h1.text-center {
+    font-size: 2rem;
+  }
+}
+
+.curriculum section.skills-curriculum .text-skills {
+  font-size: 1.15rem;
+  line-height: 30px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-curriculum .text-skills {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-curriculum .text-skills {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .curriculum section.skills-curriculum .text-skills {
+    width: 95%;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.skills-curriculum .text-skills {
+    width: 90%;
+  }
+}
+
+.curriculum section.skills-item {
+  padding: 5rem 0;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-item {
+    padding: 5rem 0 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item {
+    padding: 3rem 0 1rem;
+  }
+}
+
+.curriculum section.skills-item .box-item {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item {
+    margin-bottom: 0;
+  }
+}
+
+.curriculum section.skills-item .box-item .head-item {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-item .box-item .head-item {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item .head-item {
+    position: relative;
+  }
+}
+
+.curriculum section.skills-item .box-item .head-item img.item-img {
+  width: 30%;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item .head-item img.item-img {
+    width: 75px;
+  }
+}
+
+@media (max-width: 375px) {
+  .curriculum section.skills-item .box-item .head-item img.item-img {
+    width: 60px;
+  }
+}
+
+.curriculum section.skills-item .box-item .head-item h5.title-item {
+  font-size: 1.5rem;
+  width: 75%;
+  margin: 0 auto;
+  min-height: 70px;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.skills-item .box-item .head-item h5.title-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-item .box-item .head-item h5.title-item {
+    font-size: 1.15rem;
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item .head-item h5.title-item {
+    font-size: 1.25rem;
+    min-height: auto;
+    margin: 0 auto 1rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.skills-item .box-item .head-item h5.title-item {
+    width: 60%;
+  }
+}
+
+.curriculum section.skills-item .box-item .head-item::after {
+  backface-visibility: hidden;
+  background: #29B6F6;
+  bottom: 0;
+  content: "";
+  height: 5px;
+  top: 55%;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: all 0.35s cubic-bezier(0.77, 0, 0.175, 1) 0s;
+  width: 15%;
+  border-radius: 0;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.skills-item .box-item .head-item::after {
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.skills-item .box-item .head-item::after {
+    top: 42%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item .head-item::after {
+    bottom: -15%;
+    top: auto;
+  }
+}
+
+.curriculum section.skills-item .box-item .head-item.color-1::after {
+  background: #29B6F6;
+}
+
+.curriculum section.skills-item .box-item .head-item.color-2::after {
+  background: #FF5722;
+}
+
+.curriculum section.skills-item .box-item .head-item.color-3::after {
+  background: #FFCA28;
+}
+
+.curriculum section.skills-item .box-item .body-item {
+  padding: 1rem 0;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.skills-item .box-item .body-item {
+    padding: 1.5rem 3rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.skills-item .box-item .body-item {
+    padding: 1.5rem 1rem;
+    font-size: 1.15rem;
+  }
+}
+
+.curriculum section.values-skills {
+  position: relative;
+  margin: 0;
+  background: #FFF;
+  padding: 5rem 0 8rem;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.values-skills {
+    background: url("../assets/img/homepage/cover-blue-2.png") no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 45% 100px;
+    padding: 4rem 0 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills {
+    background: url("../assets/img/homepage/cover-blue-2.png") no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 50px;
+    padding: 3rem 0 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills {
+    background: url("../assets/img/homepage/cover-blue-2.png") no-repeat left center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 50px;
+    padding: 3rem 0 6rem;
+  }
+}
+
+.curriculum section.values-skills img.cover-blue {
+  position: absolute;
+  top: 0;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.values-skills img.cover-blue {
+    display: none;
+  }
+}
+
+.curriculum section.values-skills img.line-2 {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  width: 15%;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.values-skills img.line-2 {
+    right: 20%;
+    width: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills img.line-2 {
+    right: 20%;
+    width: 18%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills img.line-2 {
+    display: none;
+  }
+}
+
+.curriculum section.values-skills .head-values {
+  margin: 0 0 4rem;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills .head-values {
+    margin: 0 0 3rem;
+  }
+}
+
+.curriculum section.values-skills .head-values h1.title-values {
+  font-family: 'bree-serif';
+  font-size: 3.15rem;
+  color: #FFF;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .head-values h1.title-values {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.values-skills .head-values h1.title-values {
+    font-size: 2rem;
+  }
+}
+
+.curriculum section.values-skills .head-values h5.desc-title {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 30px;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.values-skills .head-values h5.desc-title {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills .head-values h5.desc-title {
+    width: 85%;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .head-values h5.desc-title {
+    width: 95%;
+    font-size: 1.15rem;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.values-skills .head-values h5.desc-title {
+    width: 100%;
+    font-size: 1.15rem;
+  }
+}
+
+.curriculum section.values-skills .item-value {
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills .item-value {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .item-value {
+    margin-bottom: 2rem;
+    padding: 0 2.5rem;
+  }
+}
+
+.curriculum section.values-skills .item-value .box-values {
+  padding: 2rem;
+  border: 4px solid #6D4C41;
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills .item-value .box-values {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.values-skills .item-value .box-values {
+    padding: 1.5rem 1rem;
+  }
+}
+
+.curriculum section.values-skills .item-value .box-values img.ic-values {
+  margin: 1.25rem 0;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .item-value .box-values img.ic-values {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.values-skills .item-value .box-values img.ic-values {
+    margin: 1rem 0;
+  }
+}
+
+.curriculum section.values-skills .item-value .box-values p.desc-item-values {
+  font-size: 1.15rem;
+  width: 60%;
+  margin: 0 auto;
+  min-height: 80px;
+}
+
+@media (max-width: 1024px) {
+  .curriculum section.values-skills .item-value .box-values p.desc-item-values {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .curriculum section.values-skills .item-value .box-values p.desc-item-values {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .item-value .box-values p.desc-item-values {
+    width: 65%;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .curriculum section.values-skills .item-value .box-values p.desc-item-values {
+    width: 85%;
+  }
+}
+
+.curriculum section.values-skills .ic-values-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 15%;
+}
+
+@media (max-width: 576px) {
+  .curriculum section.values-skills .ic-values-bottom {
+    width: 30%;
   }
 }
 
