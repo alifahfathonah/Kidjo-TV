@@ -1,13 +1,37 @@
-
 AOS.init();
 
 // Initialize Swiper
-var swiper = new Swiper('.swiper-container', {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+// var swiper = new Swiper('.swiper-container.product', {
+//     slidesPerView: 3,
+//     spaceBetween: 30,
+//     slidesPerGroup: 3,
+//     loop: true,
+//     loopFillGroupWithBlank: true,
+//     pagination: {
+//         el: '.swiper-pagination',
+//         clickable: true,
+//     },
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+// });
+
+// var swiper2 = new Swiper('.swiper-container', {
+//     slidesPerView: 3,
+//     spaceBetween: 30,
+//     slidesPerGroup: 3,
+//     loopFillGroupWithBlank: true,
+//     loop: true,
+//     pagination: {
+//         el: '.swiper-container',
+//         clickable: true,
+//     },
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+// });
 
 
 // Animation Banner
@@ -96,6 +120,13 @@ TweenMax.from(".title-banner", 1, {
 })
 
 TweenMax.from(".ic-curriculum", 1, {
+    delay: 3,
+    opacity: 0,
+    y: 150,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".ic-product", 1, {
     delay: 3,
     opacity: 0,
     y: 150,
