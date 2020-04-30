@@ -4055,8 +4055,8 @@ input[type=number] {
 
 .products section.subscribe .content-subscribe .text-two-content {
   position: absolute;
-  top: -9%;
-  right: 0;
+  top: -10%;
+  right: -4%;
 }
 
 @media (max-width: 1024px) {
@@ -4118,7 +4118,7 @@ input[type=number] {
 .products section.subscribe .content-subscribe .text-four-content {
   position: absolute;
   top: 22%;
-  right: 2%;
+  right: 0;
 }
 
 @media (max-width: 1024px) {
