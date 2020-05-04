@@ -1,37 +1,18 @@
 AOS.init();
+$(document).ready(function(){
+  $(".list-menu-privacy a").on('click', function(event) {
 
-// Initialize Swiper
-// var swiper = new Swiper('.swiper-container.product', {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     slidesPerGroup: 3,
-//     loop: true,
-//     loopFillGroupWithBlank: true,
-//     pagination: {
-//         el: '.swiper-pagination',
-//         clickable: true,
-//     },
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-// });
-
-// var swiper2 = new Swiper('.swiper-container', {
-//     slidesPerView: 3,
-//     spaceBetween: 30,
-//     slidesPerGroup: 3,
-//     loopFillGroupWithBlank: true,
-//     loop: true,
-//     pagination: {
-//         el: '.swiper-container',
-//         clickable: true,
-//     },
-//     navigation: {
-//         nextEl: '.swiper-button-next',
-//         prevEl: '.swiper-button-prev',
-//     },
-// });
+    if (this.hash !== "") {
+      event.preventDefault();
+      const hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - 100
+      }, 500, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
 
 
 // Animation Banner
