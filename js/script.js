@@ -1,17 +1,25 @@
 AOS.init();
-$(document).ready(function(){
-  $(".list-menu-privacy a").on('click', function(event) {
+$(document).ready(function () {
 
-    if (this.hash !== "") {
-      event.preventDefault();
-      const hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top - 100
-      }, 500, function(){
-        window.location.hash = hash;
-      });
-    } 
-  });
+    $(".list-menu-privacy a").on('click', function (event) {
+
+        if (this.hash !== "") {
+            event.preventDefault();
+            const hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - 100
+            }, 500, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+
+    $("#searchBox").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#accordion .list-faq").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
 });
 
 
@@ -97,6 +105,12 @@ TweenMax.from(".title-banner", 1, {
     delay: 2.5,
     opacity: 0,
     y: 50,
+    ease: Expo.easeInOut
+})
+
+TweenMax.from(".has-search", 1, {
+    delay: 3,
+    opacity: 0,
     ease: Expo.easeInOut
 })
 
