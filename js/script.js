@@ -1,7 +1,7 @@
 AOS.init();
 $(document).ready(function () {
 
-    $(".list-menu-privacy a").on('click', function (event) {
+    $(".homepage .list-menu-privacy a").on('click', function (event) {
 
         if (this.hash !== "") {
             event.preventDefault();
