@@ -4103,12 +4103,11 @@ input[type=number] {
 
                 @media(max-width: 576px) {
                     padding: 1.5rem;
-                    margin-bottom: 2.5rem;
+                    margin-bottom: 0;
                 }
 
                 @media(max-width: 320px) {
                     padding: 1rem;
-                    margin-bottom: 2rem;
                 }
             }
 
@@ -4136,6 +4135,7 @@ input[type=number] {
             @media(max-width: 576px) {
                 padding-left: initial;
                 padding: 0 1.5rem;
+                margin-top: 1.5rem;
             }
 
             h1.title {
@@ -4496,14 +4496,13 @@ input[type=number] {
         }
 
         @media(max-width:576px) {
-            padding: 5rem 0 0;
+            padding: 5.5rem 0px 6rem;
             width: 100%;
-            height: 67vh;
+            height: auto;
         }
 
         @media(max-width:320px) {
-            padding: 4.75rem 0 0;
-            height: 68.5vh;
+            padding: 4.75rem 0 4rem;
         }
 
         img.cover {
@@ -4514,7 +4513,7 @@ input[type=number] {
 
             @media(max-width: 576px) {
                 object-fit: cover;
-                height: 55vh;
+                height: 80%;
                 object-position: center;
             }
         }
@@ -4545,19 +4544,19 @@ input[type=number] {
                 width: 100%;
                 text-align: center;
                 line-height: 3rem;
-                margin: 7.5rem 0 .5rem;
+                margin: 5rem 0 .5rem;
                 text-shadow: 3px 0px 2px #6D4C41;
             }
 
             // Iphone X
             @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
                 margin-bottom: 4rem;
-                margin: 7.5rem 0 .5rem;
+                margin: 5rem 0 .5rem;
             }
 
             @media(max-width: 375px) {
                 font-size: 2.25rem;
-                margin: 7rem 0 .5rem;
+                margin: 5rem 0 .5rem;
             }
 
             @media(max-width: 320px) {
@@ -4566,7 +4565,7 @@ input[type=number] {
                 text-align: center;
                 line-height: 2.75rem;
                 margin-bottom: .5rem;
-                margin-top: 6rem;
+                margin-top: 4rem;
             }
         }
 
@@ -4637,6 +4636,10 @@ input[type=number] {
         padding: 4rem 0;
 
         @media(max-width: 375px) {
+            padding: 4rem 0 2rem;
+        }
+
+        @media(max-width: 320px) {
             padding: 3rem 0 2rem;
         }
 

@@ -13,7 +13,7 @@ $(document).ready(function () {
         var $form = $('#filter-form');
 
         $('#searchBox').on("keyup",function () {
-            var filter = $(this).val();
+            var filter = $(this).val().toLowerCase();
             $form.removeClass("has-success has-error");
 
             if (filter == "") {
@@ -21,8 +21,7 @@ $(document).ready(function () {
                 $('.collapse.show').removeClass('show');
             } else {       
                 $('.searchable .card').hide();
-                $('.collapse').addClass('show');
-                // $('.searchable .card .box-list li').hide();
+                $('#accordion .collapse').addClass('show');
                 var regex = new RegExp(filter, 'i');
                 var filterResult = $('.searchable .card').filter(function () {
                     return regex.test($(this).text());
