@@ -1,5 +1,45 @@
 AOS.init();
+
 $(document).ready(function () {
+
+    $("#searchBox").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#accordion .list-faq").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
+
+    (function ($) {
+        var $form = $('#filter-form');
+
+        $('#searchBox').on("keyup",function () {
+            var filter = $(this).val();
+            $form.removeClass("has-success has-error");
+
+            if (filter == "") {
+                $('.searchable .card').show();
+                $('.collapse.show').removeClass('show');
+            } else {       
+                $('.searchable .card').hide();
+                $('.collapse').addClass('show');
+                // $('.searchable .card .box-list li').hide();
+                var regex = new RegExp(filter, 'i');
+                var filterResult = $('.searchable .card').filter(function () {
+                    return regex.test($(this).text());
+                })
+                if (filterResult) {
+                    if (filterResult.length != 0) {
+                        $form.addClass("has-success");
+                        filterResult.show();
+                    } else {
+                        $form.addClass("has-error").removeClass("has-success");
+                    }
+                } else {
+                    $form.addClass("has-error").removeClass("has-success");
+                }
+            }
+        })
+    }($));
 
     $(".homepage .list-menu-privacy a").on('click', function (event) {
 
@@ -13,13 +53,10 @@ $(document).ready(function () {
             });
         }
     });
+});
 
-    $("#searchBox").on("keyup", function () {
-        var value = $(this).val().toLowerCase();
-        $("#accordion .list-faq").filter(function () {
-            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-    });
+$('.noEnterSubmit').keypress(function (e) {
+    if (e.which == 13) e.preventDefault();
 });
 
 

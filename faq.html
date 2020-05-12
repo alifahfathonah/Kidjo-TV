@@ -12,8 +12,7 @@
     <meta content="text/html; charset=UTF-8" name="Content-Type" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <meta name="description"
-        content="Kidjo - Smart Digital Playground, Ad Free Curated Premium Videos for Children, Kidjo TV Videos Children Ad Free Premium">
+    <meta name="description" content="Kidjo - Smart Digital Playground, Ad Free Curated Premium Videos for Children, Kidjo TV Videos Children Ad Free Premium">
     <meta name="author" content="kidjo.tv" />
     <meta name="distribution" content="global" />
     <meta name="resource-type" content="document" />
@@ -72,11 +71,11 @@
                             En
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Fr</a>
-                            <a class="dropdown-item" href="#">Es</a>
-                            <a class="dropdown-item" href="#">De</a>
-                            <a class="dropdown-item" href="#">It</a>
-                            <a class="dropdown-item" href="#">Ar</a>
+                            <a class="dropdown-item" name="fr" href="#">Fr</a>
+                            <a class="dropdown-item" name="es" href="#">Es</a>
+                            <a class="dropdown-item" name="de" href="#">De</a>
+                            <a class="dropdown-item" name="it" href="#">It</a>
+                            <a class="dropdown-item" name="ar" href="#">Ar</a>
                         </div>
                     </li>
                 </ul>
@@ -88,16 +87,16 @@
         <img src="assets/img/faq-banner.png" class="lazy img-fluid cover" alt="cover-banner">
         <div class="container text-center">
             <h1 class="title-banner bree-bold">How can we help ?</h1>
-            <div class="form-group has-search">
+            <div id="filter-form" class="form-group has-search">
                 <span class="fa fa-search form-control-feedback"></span>
-                <input id="searchBox" type="text" class="form-control" placeholder="Describe your issue">
+                <input id="searchBox" type="text" class="form-control noEnterSubmit" placeholder="Describe your issue">
             </div>
         </div>
     </section>
 
     <section class="content-faq">
         <div class="container">
-            <div id="accordion">
+            <div id="accordion" class="searchable">
                 <div class="card mb-4">
                     <div class="card-header" id="heading-1">
                         <h5 class="title-content bree-serif mb-0">
@@ -116,17 +115,17 @@
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
-                                        How can I join Kidjo?
+                                    <a href="faq-detail-2.html" class="list-modal-faq">
+                                        How can I get Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-3.html" class="list-modal-faq">
                                         How can I access Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-4.html" class="list-modal-faq">
                                         How does the “Backpack” (Offline mode) work?
                                     </a>
                                 </li>
@@ -147,20 +146,20 @@
                         <div class="card-body">
                             <ul class="box-list">
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-5.html" class="list-modal-faq">
                                         How can I join Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-6.html" class="list-modal-faq">
                                         How do I know if I am subscribed?
                                     </a>
                                 </li>
-                                <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                <!-- <li class="list-faq">
+                                    <a href="faq-detail-7.html" class="list-modal-faq">
                                         Which terms and conditions apply to your subscription?
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -178,7 +177,7 @@
                         <div class="card-body">
                             <ul class="box-list">
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-7.html" class="list-modal-faq">
                                         How can I cancel my Kidjo subscription?
                                     </a>
                                 </li>
@@ -199,26 +198,26 @@
                         <div class="card-body">
                             <ul class="box-list">
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-4.html" class="list-modal-faq">
                                         How does the “Backpack” (Offline mode) work?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-8.html" class="list-modal-faq">
                                         Can I keep watching my videos if I travel abroad?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-9.html" class="list-modal-faq">
                                         How can I free up space on my device?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-10.html" class="list-modal-faq">
                                         How to avoid having my kid downloading videos while on 3G/4G?
                                     </a>
                                 </li>
-                                <li class="list-faq">
+                                <!-- <li class="list-faq">
                                     <a href="faq-detail.html" class="list-modal-faq">
                                         What can I do in the Settings menu of Kidjo?
                                     </a>
@@ -237,7 +236,7 @@
                                     <a href="faq-detail.html" class="list-modal-faq">
                                         How can I switch off all sound effects/music on Kidjo?
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
@@ -255,27 +254,27 @@
                         <div class="card-body">
                             <ul class="box-list">
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
-                                        What can I find in Parents section?
+                                    <a href="faq-detail-11.html" class="list-modal-faq">
+                                        What's in the Parents section of Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-12.html" class="list-modal-faq">
                                         What can I do in the Settings menu of Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
-                                        How can I create the program and select what I want my Kids to watch?
+                                    <a href="faq-detail-13.html" class="list-modal-faq">
+                                        How can I choose what I want my kids to watch on Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
-                                        How to change the language of the videos my kid will watch?
+                                    <a href="faq-detail-14.html" class="list-modal-faq">
+                                        How can I change the language of the videos on Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-15.html" class="list-modal-faq">
                                         How can I switch off all sound effects/music on Kidjo?
                                     </a>
                                 </li>
@@ -296,32 +295,32 @@
                         <div class="card-body">
                             <ul class="box-list">
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-16.html" class="list-modal-faq">
                                         Why Kidjo isn’t Free?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-17.html" class="list-modal-faq">
                                         Something is going wrong:
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-18.html" class="list-modal-faq">
                                         Which terms and conditions apply to your subscription?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-3.html" class="list-modal-faq">
                                         How can I access Kidjo?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-19.html" class="list-modal-faq">
                                         How to change the language of the videos my kid watch?
                                     </a>
                                 </li>
                                 <li class="list-faq">
-                                    <a href="faq-detail.html" class="list-modal-faq">
+                                    <a href="faq-detail-20.html" class="list-modal-faq">
                                         How to share a Kidjo subscription through Family Sharing?
                                     </a>
                                 </li>
@@ -332,40 +331,6 @@
             </div>
         </div>
     </section>
-
-    <!-- <div class="modal fade" id="oneFaq1" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title bree-serif" id="exampleModalLongTitle">
-                        What is the difference between The trial version and Kidjo?
-                    </h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="far fa-times-circle"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="content bree-light">
-                        <p class="text-content">
-                            With Kidjo Premium version, your kid will be able to:
-                        </p>
-                        <p class="text-content">
-                            - Access to more than 2500 Premium videos in 5 different languages<br>
-                            - Watch videos with No advertising. Ever!<br>
-                            - Store all his favorite videos in his Kidjo “Backpack" ; that way, he will be able to access  them from anywhere, even when there is no internet connection.<br>
-                            -  Play all his favorite Puzzle, Memory, coloring games online and offline<br>
-                            - Access his favorite app from any device ; whether he is on the Phone, Tablet, TV or Desktop
-                        </p>
-                        <p class="text-content">
-                            It doesn’t answer your question? You want to suggest something Or just say Hello ? Contact us at: 
-                            <span><a href="mailto:support@kidjo.tv">support@kidjo.tv</a></span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <footer class="footer-kidjo">
         <img src="assets/img/homepage/line-7.png" class="lazy img-fluid line-7" alt="line-7">
